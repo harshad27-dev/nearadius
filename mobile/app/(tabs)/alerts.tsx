@@ -1,0 +1,11 @@
+import { View, Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+export default function AlertsScreen() {
+    return (
+        <SafeAreaView className="flex-1 bg-black items-center justify-center">
+            <Text className="text-white text-xl">Alerts & Notifications</Text>
+            <Text className="text-gray-500 mt-2">No new alerts in 500m radius.</Text>
+        </SafeAreaView>
+    );
+}
